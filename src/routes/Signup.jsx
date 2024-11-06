@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
-
 import studylogosmaller from '../assets/studylogosmaller.png'
 
 
@@ -10,7 +9,7 @@ const Signup = () => {
 
     <a><img src={studylogosmaller}/></a>
     
-        <Navbar/>
+    <Navbar/>
         <form>
         <h1>enter phone number</h1>
         <br /><input type="text" style={{fontSize: "30px" }}/>
